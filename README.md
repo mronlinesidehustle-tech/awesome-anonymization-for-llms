@@ -100,6 +100,11 @@ A comprehensive collection of resources for PII detection, anonymization, privac
 - Context-aware detection using spaCy, 50+ predefined entity types, multi-language support
 - [GitHub](https://github.com/microsoft/presidio) | [Documentation](https://microsoft.github.io/presidio/)
 
+**LLM Privacy Shield**
+- Hosted API that redacts and tokenizes PII (emails, phone numbers, SSNs, credit cards, IPs, API keys) before text is sent to an LLM, then restores the original values in the reply
+- Reversible tokenize plus mask and remove modes; runs in-process with no outbound calls; free tier
+- [Website](https://llm-privacy-shield.vercel.app) | [API](https://rapidapi.com/like-father-like-son-investments-like-father-like-son-investments-default/api/llm-privacy-shield)
+
 **DataFog Python**
 - Lightning-fast PII detection with 190x performance advantage (2.4ms for 10KB text)
 - Multiple engines: Regex, spaCy, GLiNER with smart cascading
